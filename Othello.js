@@ -1,7 +1,7 @@
 let body = document.getElementById("body");
 let maskone = document.getElementById("maskone");
 let masktwo = document.getElementById("masktwo");
-
+let texxt = document.getElementById("textt")
 let clicks = 0;
 maskone.addEventListener("click", reveal);
 function reveal() {
@@ -22,9 +22,13 @@ function dark(){
     body.style.backgroundColor = "black";
     maskone.innerHTML = '<img src="Assets/lightfrown.png" alt="drama mask">';
     masktwo.innerHTML = '<img src="Assets/lightsmile.png" alt="drama mask">';
+    texxt.innerHTML = "VS REALITY";
+texxt.style.color = "white";
 }
 function light(){
 body.style.backgroundColor = "white";
 maskone.innerHTML = '<img src="Assets/darkmaskfrown.png" alt="drama mask">';
 masktwo.innerHTML = '<img src="Assets/darkmasksmile.png" alt="drama mask">';
+texxt.innerHTML = "APPEARANCE";
+texxt.style.color = "black";
 }

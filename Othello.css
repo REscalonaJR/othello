@@ -3,42 +3,56 @@ body{
     flex-direction: column;
     align-items: center;
 }
+.cont{
+    position: absolute;
+    height: 750px;
+    width: 750px;
+}
+.textt{
+    position: absolute;
+    top: 5vh;
+    font-size: 70px;
+    font-family: "Alfa Slab One", serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
 .yes{
     position: absolute;
     top: 10vh;
     z-index: -2;
-    right: 37%;
+    right: 125px;
 }
 .no{
     position: absolute;
     top: 10vh;
-    right: 37%;
+    right: 125px;
 }
 .active{
     rotate: 30deg;
-    right: 30%;
+    right: 5px;
     animation: idk 1s ease-in 1;
 }
 @keyframes idk{
     0%{ rotate: 0deg;
-    right: 37%;   
+    right: 125px;   
     }
     100%{rotate: 30deg;
-    right: 30%;
+    right: 5px;
     }
 }
 .deactive{
     rotate: 0deg;
-    right: 37%;
+    right: 125px;
     animation: idk2 1s ease-in 1;
 }
 @keyframes idk2{
     0%{
-    right: 30%;
+    right: 5px;
     rotate: 30deg;
     }
     100%{
     rotate: 0deg;
-    right: 37%;
+    right: 125px;
     }
 }
