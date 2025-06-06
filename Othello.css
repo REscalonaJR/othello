@@ -7,36 +7,38 @@ body{
     position: absolute;
     top: 10vh;
     z-index: -2;
+    right: 37%;
 }
 .no{
     position: absolute;
     top: 10vh;
+    right: 37%;
 }
 .active{
     rotate: 30deg;
-    right: 40vh;
+    right: 30%;
     animation: idk 1s ease-in 1;
 }
 @keyframes idk{
     0%{ rotate: 0deg;
-    right: 57vh;   
+    right: 37%;   
     }
     100%{rotate: 30deg;
-    right: 40vh;
+    right: 30%;
     }
 }
 .deactive{
     rotate: 0deg;
-    right: 57vh;
+    right: 37%;
     animation: idk2 1s ease-in 1;
 }
 @keyframes idk2{
     0%{
-    right: 40vh;
+    right: 30%;
     rotate: 30deg;
     }
     100%{
     rotate: 0deg;
-    right: 57vh;
+    right: 37%;
     }
 }
