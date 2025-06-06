@@ -1,3 +1,5 @@
+let oth = document.getElementById("oth")
+let mod = document.getElementById("mod")
 let body = document.getElementById("body");
 let maskone = document.getElementById("maskone");
 let masktwo = document.getElementById("masktwo");
@@ -26,6 +28,8 @@ function dark(){
     texxt.innerHTML = "VS REALITY";
     texxt.style.color = "white";
     iago.style.borderColor = "white";
+    oth.style.color = "white";
+    mod.style.color = "white";
 }
 function light(){
     body.style.backgroundColor = "white";
@@ -34,4 +38,6 @@ function light(){
     texxt.innerHTML = "APPEARANCE";
     texxt.style.color = "black";
     iago.style.borderColor = "black";
+    oth.style.color = "black";
+    mod.style.color = "black";
 }
