@@ -3,6 +3,7 @@ let maskone = document.getElementById("maskone");
 let masktwo = document.getElementById("masktwo");
 let texxt = document.getElementById("textt")
 let clicks = 0;
+let iago = document.getElementById("iago")
 maskone.addEventListener("click", reveal);
 function reveal() {
     clicks++;
@@ -23,12 +24,14 @@ function dark(){
     maskone.innerHTML = '<img src="Assets/lightfrown.png" alt="drama mask">';
     masktwo.innerHTML = '<img src="Assets/lightsmile.png" alt="drama mask">';
     texxt.innerHTML = "VS REALITY";
-texxt.style.color = "white";
+    texxt.style.color = "white";
+    iago.style.borderColor = "white";
 }
 function light(){
-body.style.backgroundColor = "white";
-maskone.innerHTML = '<img src="Assets/darkmaskfrown.png" alt="drama mask">';
-masktwo.innerHTML = '<img src="Assets/darkmasksmile.png" alt="drama mask">';
-texxt.innerHTML = "APPEARANCE";
-texxt.style.color = "black";
+    body.style.backgroundColor = "white";
+    maskone.innerHTML = '<img src="Assets/darkmaskfrown.png" alt="drama mask">';
+    masktwo.innerHTML = '<img src="Assets/darkmasksmile.png" alt="drama mask">';
+    texxt.innerHTML = "APPEARANCE";
+    texxt.style.color = "black";
+    iago.style.borderColor = "black";
 }
