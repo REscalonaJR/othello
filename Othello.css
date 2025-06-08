@@ -3,9 +3,44 @@ body{
     flex-direction: column;
     align-items: center;
 }
+.quote{
+    width: 100%;
+    font-size: 20px;
+    border: solid 3px ;
+    height: 16%;
+    margin-top: 3vh;
+    margin-bottom: 3vh; 
+    overflow: scroll;
+}
+.white{
+    border-color: white;
+}
+#qmod{
+    position: absolute;
+    right: 1.2%;
+    top: 12%;
+}
+#qoth{
+    position: absolute;
+    left: 1.2%;
+    top: 12%;
+}
+.qcont{
+    height: 73%;
+    width: 27.5%;
+}
+.theme{
+    position: absolute;
+    top:15vh;
+    font-size: 22px;
+    font-family: "Alfa Slab One", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white
+}
 .oth{
     position: absolute;
-    left: 10%;
+    left: 5%;
     top:5vh;
     font-size: 40px;
     font-family: "Alfa Slab One", serif;
@@ -14,7 +49,7 @@ body{
 }
 .mod{
     position: absolute;
-    right: 10%;
+    right: 5%;
     top:5vh;
     font-size: 40px;
     font-family: "Alfa Slab One", serif;
@@ -78,7 +113,7 @@ body{
     position: absolute;
     border: 8px dashed black;
     height: 25vh;
-    width: 70vh;
+    width: 65vh;
     font-family: "Alfa Slab One", serif;
     font-weight: 400;
     font-style: normal;
