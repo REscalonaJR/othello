@@ -31,7 +31,7 @@ body{
 }
 .theme{
     position: absolute;
-    top:19vh;
+    top:15%;
     font-size: 22px;
     font-family: "Alfa Slab One", serif;
     font-weight: 400;
