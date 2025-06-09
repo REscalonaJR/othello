@@ -3,6 +3,9 @@ body{
     flex-direction: column;
     align-items: center;
 }
+.invis{
+    display: none;
+}
 .quote{
     width: 100%;
     font-size: 20px;
@@ -28,6 +31,7 @@ body{
 .qcont{
     height: 73%;
     width: 27.5%;
+    z-index: 1;
 }
 .theme{
     position: absolute;
@@ -94,6 +98,13 @@ body{
     right: 5px;
     }
 }
+#hanker{
+    position: absolute;
+    z-index: 2;
+    height: 16%;
+    left: 95%;
+    top: 20%
+}
 .deactive{
     rotate: 0deg;
     right: 125px;
@@ -109,13 +120,59 @@ body{
     right: 125px;
     }
 }
+#sord{
+    position: absolute;
+    height: 17%;
+    bottom: 86%;
+    right: 90%;
+}
+#stone{
+    position: absolute;
+    height: 13%;
+    bottom: 27%;
+    right:95% ;
+}
 .iago{
     position: absolute;
     border: 8px dashed black;
     height: 25vh;
     width: 65vh;
+    font-size: 16px;
     font-family: "Alfa Slab One", serif;
-    font-weight: 400;
+    font-weight: 1;
     font-style: normal;
     bottom: 8vh;
+    overflow: scroll;
+}
+#app{
+    position: absolute;
+    height: 20%;
+    left: 87%;
+    bottom: 87%;
+}
+#teardrop{
+    position: absolute;
+    height: 25%;
+    top: 93%;
+    right: 20%;
+}
+#sad{
+    position: absolute;
+    height: 50%;
+    left: 70%;
+    top: 20%;
+}
+#diploma{
+    position: absolute;
+    height: 15%; 
+    bottom: 24%;
+    right: 90%;
+    rotate: 320deg;
+}
+#heart{
+    position: absolute;
+    height: 10%;
+    top: 100%;
+    rotate: 20deg;
+    left: 85%
 }
