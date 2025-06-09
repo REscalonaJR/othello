@@ -6,6 +6,7 @@ body{
 .invis{
     display: none;
 }
+
 .quote{
     width: 100%;
     font-size: 20px;
@@ -14,6 +15,7 @@ body{
     margin-top: 3vh;
     margin-bottom: 3vh; 
     overflow: scroll;
+    z-index: 1;
 }
 .white{
     border-color: white;
