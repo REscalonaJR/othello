@@ -56,7 +56,7 @@ function dark(){
     oth2.innerHTML = '"I will in Cassio’s lodging lose this napkin And let him find it. Trifles light as air Are to the jealous confirmations strong As proofs of holy writ."(III,III,363-366)1603-1604';
     oth3.innerHTML = '"Alas, what ignorant sin have I committed?"(IV,II,79)1603-1604';
     oth4.innerHTML = '"So will I turn her virtue into pitch And out of her own goodness make the net That shall enmesh them all."(II,III,363-365)1603-1604';
-    oth5.innerHTML = '"I hate the Moor."(I,III,390-391)';
+    oth5.innerHTML = '"I hate the Moor."(I,III,390-391) 1603-1604';
     mod1.innerHTML = '"I am <i>always</I> afraid"-Children of Blood and Bone 2018';
     mod2.innerHTML = '"Why? Why do i have to go through this?"- Hajime no ippo season 2 episode 18, 2009';
     mod3.innerHTML = '"You see, as i was testing honey across different stores, i was encountering a reoccuring issue. when i reachad the checkout page, honey would claim it'+" couldn't find me any coupon codes. Yet when i searched manually i found working codes manually with ease. And even when Honey did find me a code, I was often able to find another code of better value."+'"-MegaLag. youtube.com 2024';
